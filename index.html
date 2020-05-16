@@ -4,8 +4,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        html {
+  font-size: 62.5%;
+  
+}
+
+
+body {
+  background-color: gray;
+  }
+
+@media(max-width: 800px){
+  .body {
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 500px){
+  .body {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+h1 {
+  display:flex;
+  font-family: sans-serif;
+  justify-content: center;
+  font-size: 10rem;
+  width: 100%;
+  }
+
+a{
+  text-decoration: none;
+  color: lightgray;
+}
+
+a:hover{
+ color: orange;
+}
+
+
+#nav {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  font-size: 4rem;
+  
+}
+
+
+#main-project {
+  display: flex;
+  font-family: Sans-serif;
+  width: 100%;
+  margin: 40px ;
+  justify-content: center;
+  font-size: 3rem;
+  
+  
+  }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center ;
+  
+  }
+
+img {
+  border-radius: 25px;
+}
+
+
+
+
+
+.container .item {
+  width: 20rem;
+  height: 20rem;
+  background: lightgray;
+  margin: 8rem;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 4rem;
+  }
+
+
+#nav2 {
+  display:flex;
+  justify-content: center;
+  font-size: 4rem;
+  
+  
+}
+
+    </style>
 </head>
-<body>
+
+
+<body class="body"> 
+    <div id="header">  
+    <div id="name">
+      <h1>JON DEL TORO</h1>
+      </div>
+    <div id="nav">
+    <nav>
+      <a href="">about</a>
+      <a href="https://codepen.io/jdeltoro88/full/QWjBGxG">projects</a>
+      <a href="">contact</a>
+      </nav>
+      </div>
     
-</body>
+       <div id="main-project">
+      
+      Full stack Web Developer With a passion for learning and the outdoors! 
+      
+       </div>
+    </div>
+    
+    <div class="container">
+      <div class="item"><a href="https://codepen.io/jdeltoro88/pen/rNOYxjQ">
+        <img src="https://picsum.photos/200" alt= "random photo"></a>Item 1</div>
+      <div class="item"> <a href="https://codepen.io/jdeltoro88/pen/rNOYxjQ">
+        <img src="https://picsum.photos/200" alt= "random photo"></a>Item 2</div>
+      <div class="item"> <a href="https://codepen.io/jdeltoro88/pen/rNOYxjQ">
+        <img src="https://picsum.photos/200" alt= "random photo"></a>Item 3</div>
+      <div class="item"> <a href="https://codepen.io/jdeltoro88/pen/rNOYxjQ"> 
+        <img src="https://picsum.photos/200" alt= "random photo"></a>Item 4</div>
+      <div class="item"> <a href="https://codepen.io/jdeltoro88/pen/rNOYxjQ"> 
+        <img src="https://picsum.photos/200" alt= "random photo"></a>Item 5</div>
+      <div class="item"> <a href="https://codepen.io/jdeltoro88/pen/rNOYxjQ">
+        <img src="https://picsum.photos/200" alt= "random photo"></a>Item 5</div>
+       
+        </div>
+    </body>
+        
+        <footer class="contact" id="contact-info">
+          <div id="nav2">
+    <nav>
+      <a href="https://github.com/jdeltoro88?tab=repositories" target="_blank">Github</a>
+      <a href="">Instagram</a>
+      <a href="">Contact</a>
+      </nav>
+          
+        </footer>
+
+    
+
 </html>
